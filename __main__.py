@@ -1,6 +1,6 @@
 import bitdeli
 import random
-from bitdeli.widgets import Bar, Table, set_theme
+from bitdeli.widgets import Title, Description, Bar, Table, set_theme
 from bitdeli.textutil import COUNTRIES
 
 set_theme('builder')
@@ -38,3 +38,6 @@ Table(label='Top Entries',
       color=2,
       data=list(table_data()),
       chart={'Weight': 'bar'})
+
+Title("Voting has ended")
+Description("**13,487** users participated. The winning entry is *Funky Stars*.")
