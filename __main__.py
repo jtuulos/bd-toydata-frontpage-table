@@ -37,7 +37,8 @@ Table(label='Top Entries',
       size=(12, 6),
       color=2,
       data=list(table_data()),
-      chart={'Weight': 'bar'})
+      chart={'Weight': 'bar'},
+      csv_export=True)
 
 Title("Voting has ended")
 Description("**13,487** users participated. The winning entry is *Funky Stars*.")
