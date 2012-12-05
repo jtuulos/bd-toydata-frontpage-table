@@ -33,6 +33,12 @@ Bar(label='Voting Activity',
     color=3,
     data=list(bar_data()))
 
+Table(label='All Entries',
+      size=(12, 1),
+      color=2,
+      data=list(table_data()),
+      csv_export=True)
+
 Table(label='Top Entries',
       size=(12, 6),
       color=2,
