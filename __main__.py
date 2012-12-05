@@ -39,7 +39,8 @@ Table(label='All Entries',
       data=list(table_data()),
       csv_export=True)
 
-Table(label='Top Entries',
+Table(id='top_entries',
+      label='Top Entries',
       size=(12, 6),
       color=2,
       data=list(table_data()),
