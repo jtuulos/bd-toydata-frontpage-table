@@ -37,7 +37,8 @@ Table(label='All Entries',
       size=(12, 1),
       color=2,
       data=list(table_data()),
-      csv_export=True)
+      csv_export=True,
+      json_export=True)
 
 Table(id='top_entries',
       label='Top Entries',
@@ -45,7 +46,8 @@ Table(id='top_entries',
       color=2,
       data=list(table_data()),
       chart={'Weight': 'bar'},
-      csv_export=True)
+      csv_export=True,
+      json_export=True)
 
 Title("Voting has ended")
 Description("**13,487** users participated. The winning entry is *Funky Stars*.")
